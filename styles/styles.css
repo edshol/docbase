@@ -304,3 +304,19 @@ h1 {
       justify-content: center;
     }
 }
+
+.card {
+  >div {
+    align-items: stretch;
+    > div {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 100%;
+      position: relative;
+      > p:first-child {
+        flex-grow: 1;
+      }
+    }
+  }
+}
