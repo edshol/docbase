@@ -306,11 +306,15 @@ h1 {
 }
 
 .card {
+  background: white;
+  padding: 26px;
   >div {
     align-items: stretch!important;
     > div {
       display: flex;
       flex-direction: column;
+      border: solid #eee;
+      padding: 20px;
       > p:nth-child(2) {
         flex-grow: 1;
       }
