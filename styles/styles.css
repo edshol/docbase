@@ -16,8 +16,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #eb5505;
+  --link-hover-color: #eb5505ae;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -254,4 +254,10 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* added by tekaneko */
+h1 {
+  border-left: 4px solid #eb5505;
+    padding-left: 10px;
 }
