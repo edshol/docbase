@@ -264,6 +264,13 @@ h1 {
 
 /* Section style */
 .top-image {
+  picture {
+    display: block;
+    width:100%;
+    img {
+      width: 100%;
+    }
+  }
   ul {
     list-style: none;
     display: flex;
@@ -288,6 +295,8 @@ h1 {
 }
 .section-content > .default-content-wrapper {
     background: white;
-    padding: 30px;
-    margin: 20px;
+    padding: 30px 0px;
+    picture {
+      display: flex;
+    }
 }
