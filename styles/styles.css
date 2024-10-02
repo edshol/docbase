@@ -293,7 +293,7 @@ h1 {
     }
   }
 }
-.section-content > .default-content-wrapper {
+.bgwhite-content > .default-content-wrapper {
     background: white;
     padding: 30px 0px;
     > p {
