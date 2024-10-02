@@ -301,5 +301,6 @@ h1 {
     }
     picture {
       display: flex;
+      justify-content: center;
     }
 }
