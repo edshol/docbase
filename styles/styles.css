@@ -296,6 +296,9 @@ h1 {
 .section-content > .default-content-wrapper {
     background: white;
     padding: 30px 0px;
+    > p {
+      padding: 0px 30px;
+    }
     picture {
       display: flex;
     }
