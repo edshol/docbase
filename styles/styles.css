@@ -311,7 +311,7 @@ h1 {
     > div {
       display: flex;
       flex-direction: column;
-      p {
+      > p:nth-child(2) {
         flex-grow: 1;
       }
     }
