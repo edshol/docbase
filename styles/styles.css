@@ -269,6 +269,21 @@ h1 {
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    li::after {
+      display: inline-block;
+      vertical-align: middle;
+      color: #333;
+      line-height: 1;
+      width: 1em;
+      height: 1em;
+      border: 0.1em solid currentColor;
+      border-left: 0;
+      border-bottom: 0;
+      box-sizing: border-box;
+      transform: translateY(-25%) rotate(135deg);
+    }
   }
 }
 .section-content > .default-content-wrapper {
