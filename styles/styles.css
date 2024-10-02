@@ -271,3 +271,10 @@ h1 {
     justify-content: space-evenly;
   }
 }
+.section-content {
+  .default-content-wrapper {
+    background: white;
+    padding: 30px;
+    margin: 20px;
+  }
+}
