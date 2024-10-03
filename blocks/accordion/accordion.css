@@ -1,19 +1,19 @@
 .accordion {
-    .toggle0 {
+    .toggle {
         display: none;
     }
     .Label {		/*タイトル*/
         padding: 1em;
         display: block;
-        color: #fff;
-        background:#019ac6;
+        color: black;
+        background:white;
     }
     .Label::before{		/*タイトル横の矢印*/
         content:"";
         width: 6px;
         height: 6px;
-        border-top: 2px solid #fff;
-        border-right: 2px solid #fff;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
         -webkit-transform: rotate(45deg);
         position: absolute;
         top:calc( 50% - 3px );
@@ -36,7 +36,7 @@
     div:has(.toggle:checked) + .content {	/*開閉時*/
         height: auto;
         padding:20px ;
-        transition: all .3s;
+        transition: all 0.5s;
     }
     
     .toggle:checked + .Label::before {
