@@ -329,3 +329,5 @@ a.button:any-link, button {
   background-color: unset!important;
   color: var(--link-color)!important;
 }
+
+html { scroll-behavior: smooth;}
