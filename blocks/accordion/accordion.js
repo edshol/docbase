@@ -1,15 +1,6 @@
 export default function decorate(block) {
     const id = crypto.randomUUID();
     
-    // create Input Tag
-    const inputElm = document.createElement('input');
-    inputElm.classList.add('toggle');
-    inputElm.setAttribute('type','checkbox');
-    inputElm.setAttribute('id',id);
-
-    const accordion_div = block.querySelector(':scope > div');
-    accordion_div.appendChild( inputElm );
-    
     // create Label Tag
     const labelElm = document.createElement('label');
     labelElm.classList.add('Label');
@@ -20,6 +11,14 @@ export default function decorate(block) {
     textDiv.replaceWith(labelElm);
 
 
+    // create Input Tag
+    const inputElm = document.createElement('input');
+    inputElm.classList.add('toggle');
+    inputElm.setAttribute('type','checkbox');
+    inputElm.setAttribute('id',id);
+
+    const accordion_div = block.querySelector(':scope > div');
+    accordion_div.appendChild( inputElm );
 
 
     // contentにclass contentを付与する
