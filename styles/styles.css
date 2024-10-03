@@ -341,6 +341,11 @@ h1 {
     }
   }
 }
+.card.columns {
+  > div {
+    gap:10px;
+  }
+}
 
 a.button:any-link, button { 
   background-color: unset!important;
