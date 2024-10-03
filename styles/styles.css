@@ -295,6 +295,14 @@ h1 {
     }
   }
 }
+@media (width >= 900px) {
+  .top-image {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
+
 .bgwhite-content > .default-content-wrapper {
     background: white;
     padding: 30px 0px;
