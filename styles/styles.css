@@ -296,6 +296,12 @@ h1 {
   }
 }
 @media (width < 900px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
   .top-image {
     ul {
       flex-direction: column;
