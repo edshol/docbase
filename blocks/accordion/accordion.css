@@ -1,6 +1,6 @@
 .accordion {
-    background-color: red;
-    .toggle {
+    background-color: rgb(204, 0, 255);
+    .toggle0 {
         display: none;
     }
     .Label {		/*タイトル*/
