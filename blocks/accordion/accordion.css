@@ -27,7 +27,7 @@
         -webkit-transform: rotate(45deg);
         position: absolute;
         top:calc( 50% - 3px );
-        right: 20px;
+        right: 15px;
         transform: rotate(135deg);
     }
     .Label,
