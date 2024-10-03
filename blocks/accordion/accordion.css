@@ -1,4 +1,12 @@
 .accordion {
+    background: white;
+    > div {
+        padding: 0px 20px;
+    }
+    > div > div {
+        border: 1px solid #eee;
+    }
+
     .toggle {
         display: none;
     }
@@ -7,6 +15,7 @@
         display: block;
         color: black;
         background:white;
+        border: 1px solid #eee;
     }
     .Label::before{		/*タイトル横の矢印*/
         content:"";
