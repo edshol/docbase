@@ -18,7 +18,7 @@ export default function decorate(block) {
     inputElm.setAttribute('id',id);
 
     const accordion_div = block.querySelector(':scope > div');
-    accordion_div.appendChild( inputElm );
+    accordion_div.prependChild( inputElm );
 
 
     // contentにclass contentを付与する

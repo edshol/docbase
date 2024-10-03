@@ -43,7 +43,7 @@
         margin:100px;
     }
     
-    .Label::before + .toggle:checked {
+    .toggle:checked + .Label::before {
         transform: rotate(-45deg) !important;
     }
 }
