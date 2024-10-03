@@ -5,9 +5,10 @@ export default function decorate(block) {
     const labelElm = document.createElement('label');
     labelElm.classList.add('label');
     labelElm.setAttribute('for',id);
-
-    const labelDiv = block.querySelector(':scope > div > div');
-    labelDiv.replaceWith(labelElm);
+ 
+    const textDiv = block.querySelector(':scope > div > div');
+    labelElm.innerHTML = `${textDiv.innerHTML}`; 
+    textDiv.replaceWith(labelElm);
 
 
     // create Input Tag
@@ -16,5 +17,6 @@ export default function decorate(block) {
     inputElm.setAttribute('type','checkbox');
     inputElm.setAttribute('id',id);
 
-    labelDiv.parentElement.appendChild( inputElm );
+    const accordion_div = block.querySelector(':scope > div');
+    accordion_div.appendChild( inputElm );
 }
