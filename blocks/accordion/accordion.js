@@ -1,10 +1,20 @@
 export default function decorate(block) {
-    const accordionDiv = block.querySelector(':scope > div');
+    const id = crypto.randomUUID();
+    
+    // create Label Tag
+    const labelElm = document.createElement('label');
+    labelElm.classList.add('label');
+    labelElm.setAttribute('for',id);
+
+    const labelDiv = block.querySelector(':scope > div > div');
+    labelDiv.replaceWith(labelElm);
+
+
+    // create Input Tag
     const inputElm = document.createElement('input');
     inputElm.classList.add('toggle');
     inputElm.setAttribute('type','checkbox');
-    const id = crypto.randomUUID();
     inputElm.setAttribute('id',id);
 
-    accordionDiv.appendChild( inputElm );
+    labelDiv.parentElement.appendChild( inputElm );
 }
