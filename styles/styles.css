@@ -295,7 +295,7 @@ h1 {
     }
   }
 }
-@media (width >= 900px) {
+@media (width < 900px) {
   .top-image {
     ul {
       flex-direction: column;
