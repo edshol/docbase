@@ -278,18 +278,16 @@ h1 {
     justify-content: space-evenly;
     margin: 0px;
     padding: 0px;
-    > li::before{
-      content:"*";
-    }
     li::after {
-      content:" ";
+      content: " ";
+      margin-left: 0.5em;
       display: inline-block;
       vertical-align: middle;
-      color: #333;
+      color: blue;
       line-height: 1;
-      width: 1em;
-      height: 1em;
-      border: 0.1em solid currentColor;
+      width: 0.5em;
+      height: 0.5em;
+      border: 0.15em solid currentColor;
       border-left: 0;
       border-bottom: 0;
       box-sizing: border-box;
