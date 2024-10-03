@@ -299,6 +299,9 @@ h1 {
   .top-image {
     ul {
       flex-direction: column;
+      li {
+        font-size: smaller;
+      }
     }
   }
 }
