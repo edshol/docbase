@@ -1,5 +1,4 @@
 .accordion {
-    background-color: rgb(204, 0, 255);
     .toggle0 {
         display: none;
     }
@@ -38,9 +37,6 @@
         height: auto;
         padding:20px ;
         transition: all .3s;
-    }
-    div:has(.toggle:checked) {
-        margin:100px;
     }
     
     .toggle:checked + .Label::before {
