@@ -39,6 +39,9 @@
         padding:20px ;
         transition: all .3s;
     }
+    div:has(.toggle:checked) {
+        margin:100px;
+    }
     
     .Label::before + .toggle:checked {
         transform: rotate(-45deg) !important;
