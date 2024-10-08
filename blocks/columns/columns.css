@@ -31,3 +31,13 @@
     order: unset;
   }
 }
+
+/** add styles **/
+.columns.table {
+  > div {
+    gap: 0px;
+    > div {
+      border: 1px solid black;
+    }
+  }
+}
