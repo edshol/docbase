@@ -7,6 +7,10 @@ export default function decorate(block) {
       [...row.children].forEach((col) => {
         console.log("col:");
         console.log(col.innerText);
+        if(col.innerText.length()==0) {
+            console.log("text is empty");
+            col.classList.add('no-border-top');
+        }
         const pic = col.querySelector('picture');
         if (pic) {
           const picWrapper = pic.closest('div');
