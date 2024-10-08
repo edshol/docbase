@@ -46,6 +46,9 @@
       display: flex;
       gap: 0px;
       align-items: stretch !important;
+      > div:nth-child(3) {
+        flex:2;
+      }
       > div {
         border-top: 1px solid #d1d1d1;
         border-left: 1px solid #d1d1d1;
