@@ -36,6 +36,7 @@
 .columns.table {
   > div {
     gap: 0px;
+    align-items: stretch !important;
     > div {
       border: 1px solid black;
     }
