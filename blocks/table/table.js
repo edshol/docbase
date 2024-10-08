@@ -7,6 +7,7 @@ export default function decorate(block) {
       [...row.children].forEach((col) => {
         console.log("col:");
         console.log(col.innerText);
+        console.log(col.innerText.length);
         if(col.innerText.length==0) {
             console.log("text is empty");
             col.classList.add('no-border-top');
