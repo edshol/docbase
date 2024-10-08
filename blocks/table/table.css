@@ -37,15 +37,18 @@
 
 /** add styles **/
 .table {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    > div:first-child {
+        background-color: #e3e3e3;
+    }
     > div {
       display: flex;
       gap: 0px;
       align-items: stretch !important;
       > div {
-        border-top: 1px solid black;
-        border-left: 1px solid black;
+        border-top: 1px solid #d1d1d1;
+        border-left: 1px solid #d1d1d1;
         > p {
           padding: 10px;
         }
