@@ -1,3 +1,40 @@
+.table > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table img {
+    width: 100%;
+  }
+  
+  .table > div > div {
+    order: 1;
+  }
+  
+  .table > div > .table-img-col {
+    order: 0;
+  }
+  
+  .table > div > .table-img-col img {
+    display: block;
+  }
+  
+  @media (width >= 900px) {
+    .table > div {
+      align-items: center;
+      flex-direction: unset;
+      gap: 24px;
+    }
+  
+    .table > div > div {
+      flex: 1;
+      order: unset;
+    }
+  }
+  
+  
+
+
 /** add styles **/
 .table {
     border-bottom: 1px solid black;
