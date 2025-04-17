@@ -7,6 +7,5 @@ export default function decorate(block) {
       code.innerHTML = `${codeDiv.innerHTML}`;
       codeDiv.parentElement.replaceWith(code);
       console.log("code "+index);
-      console
     });
 }
