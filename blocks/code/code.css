@@ -1,0 +1,6 @@
+.code {
+    > div:nth-child(2) {
+        background-color: white;
+        padding: 10px 30px;
+    }
+}
